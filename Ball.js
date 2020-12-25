@@ -7,7 +7,7 @@
           }
         this.body=Bodies.circle(x,y,radius,ball_options);
         this.radius=radius; 
-        
+       
         World.add(myWorld,this.body);
 
     }
@@ -18,6 +18,7 @@
         ellipseMode(RADIUS);
         ellipse(this.body.position.x,this.body.position.y,this.radius,this.radius);
         pop();
+      
     }
 
  }

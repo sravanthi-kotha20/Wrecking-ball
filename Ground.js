@@ -17,7 +17,7 @@ class Ground{
       fill('red');
       rect(pos.x,pos.y,this.width,this.height);
       pop();
-      console.log(this.width);
+     // console.log(this.width);
   }  
  
 }
