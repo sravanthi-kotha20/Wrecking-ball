@@ -24,26 +24,30 @@ box4 = new Box(250,0,50,50);
 box5 = new Box(250,0,50,50);
 box6 = new Box(250,0,50,50);
 box7 = new Box(250,0,50,50);
-box8 = new Box(250,0,50,50);
-box9 = new Box(250,0,50,50);
-box10 = new Box(250,0,50,50);
+
 //console.log(box1.body);
+
+box8 = new Box(340,0,50,50);
+box9 = new Box(340,0,50,50);
+box10 = new Box(340,0,50,50);
 box11 = new Box(340,0,50,50);
 box12= new Box(340,0,50,50);
 box13 = new Box(340,0,50,50);
 box14 = new Box(340,0,50,50);
-box15 = new Box(340,0,50,50);
-box16 = new Box(340,0,50,50);
-box17 = new Box(340,0,50,50);
-box18 = new Box(340,0,50,50);
-box19 = new Box(340,0,50,50);
-box20 = new Box(340,0,50,50);
+
+box15 = new Box(400,0,50,50);
+box16 = new Box(400,0,50,50);
+box17 = new Box(400,0,50,50);
+box18 = new Box(400,0,50,50);
+box19 = new Box(400,0,50,50);
+box20 = new Box(400,0,50,50);
+box21 = new Box(400,0,50,50);
 //console.log(box1.position);
 
 ball = new Ball(100,100,25);
 var point= {
   x:150,
-  y:100
+  y:80
 }
 mySling=new SlingShot(point,ball.body);
 
@@ -78,7 +82,8 @@ function draw()
  box18.display();
  box19.display();
  box20.display();
-
+ box21.display();
+ 
  ball.display();
 mySling.display();
 

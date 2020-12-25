@@ -10,7 +10,7 @@ class Box{
             this.width = width;
             this.height = height;
             this.visibility=255;
-            this.image= loadImage("/sprites/wood1.png");
+            this.image= loadImage("/wood1.png");
             World.add(myWorld,this.body);
     }
   display()
